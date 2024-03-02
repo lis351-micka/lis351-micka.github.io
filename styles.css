@@ -44,138 +44,131 @@ SPACING TOOLS
     border:
 
 */
-
-    body {
-        margin: 0px;
-        background-color: rgb(200, 200, 200);
+    body{
+        margin:0px;
+        background-color:rgb(200,200,200);
     }
 
 /* HEADINGS: TEXT DEFINITIONS */
-    h1 {
-        font-family: "Helvetica", "Arial", sans-serif;
-        text-transform: uppercase;
-        padding-left: 0px;
-        text-align: center;
+    h1{
+        font-family:"Helvetica","Arial",sans-serif;
+        text-transform:uppercase;
+        padding-left:0px;
+        text-align:center;
         font-size:40px;
     }
     h2 {
-        font-family: Helvetica;
-        font-size: 20px;
+        font-family:Helvetica;
+        font-size:20px;
     }
     h3 {
-        font-family: Helvetica;
-        font-size: 16px;
+        font-family:Helvetica;
+        font-size:16px;
     }
     h4 {
-        font-family: Helvetica;
-        font-size: 12px;
+        font-family:Helvetica;
+        font-size:12px;
         font-weight:lighter;
     }
     h5 {
-        font-family: Helvetica;
-        font-size: 8px;
+        font-family:Helvetica;
+        font-size:8px;
     }
 
 /* NAVIGATION: POSITIONING */
-    nav {
-    }
 
     nav ul { /* container for list elements; */
-        position: fixed;
-        bottom: 0px;
-        width: 100%;
-        background-color: whitesmoke;
-        border: 20px solid whitesmoke;
-        margin: 0px;
-        padding: 0px;
+        position:fixed;
+        bottom:0px;
+        width:100%;
+        background-color:whitesmoke;
+        border:20px solid whitesmoke;
+        margin:0px;
+        padding:0px;
 
-        text-align: center;
+        text-align:center;
     }
 
     nav li { /* the list elements; controls interactions between list elements, bullet point removal */
-        list-style-type: none;
-        display: inline;
+        list-style-type:none;
+        display:inline;
 
-        margin: 10px;
-        padding: 0px;
+        margin:10px;
+        padding:0px;
     }
     nav a{ /* the hyperlinks themselves */
-        font-family: Helvetica, Arial, sans-serif;
-        font-weight:;
+        font-family:Helvetica,Arial,sans-serif;
 
-        text-transform: uppercase;
-        text-decoration: none;
-        text-transform:;
-        color: rgb(0, 0, 0);
+        text-transform:uppercase;
+        text-decoration:none;
+        color:rgb(0,0,0);
 
-        padding: 20px;
-        margin: 10px;
+        padding:20px;
+        margin:10px;
     }
 
     nav .active{
-        font-style:;
         font-weight:bold;
-        border-bottom: 1px solid black;
-        border-radius: 20px;
+        border-bottom:1px solid black;
+        border-radius:20px;
 }
 
 
 /* ARTWORK: POSITIONING */
-    div.artworkbody {
+    div.artworkbody{
         margin:100px;
         margin-top:-20px;
     }
 
-    fieldset {
-        border: 0px solid black;
-        border-color: rgb(0, 0, 0);
-        /* padding: 80px 80px 00px 80px; */
-        margin: 0px;
-        padding: 0px;
-        background-color: whitesmoke;
+    fieldset{
+        border:0px solid black;
+        border-color:rgb(0, 0, 0);
+        /* padding:80px 80px 00px 80px; */
+        margin:0px;
+        padding:0px;
+        background-color:whitesmoke;
     }
 
-    fieldset.individual {
+    fieldset.individual{
         width:100%;
-        margin-bottom: 80px;
+        margin-bottom:80px;
     }
 
     fieldset.individual img{
-        width: inherit;
-        border: 0px solid whitesmoke;
-        margin: 0px;
-        padding: 0px;
+        width:inherit;
+        border:0px solid whitesmoke;
+        margin:0px;
+        padding:0px;
     }
 
     fieldset.individual h3 .title{
-        text-align: center;
+        text-align:center;
     }
 
-    legend.bordertitle {
-        font-family: Helvetica, Arial, sans-serif;
-        font-weight: bold;
-        font-style: oblique;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        font-size: 16px;
+    legend.bordertitle{
+        font-family:Helvetica, Arial, sans-serif;
+        font-weight:bold;
+        font-style:oblique;
+        text-transform:uppercase;
+        letter-spacing:4px;
+        font-size:16px;
     }
 
-    legend.bordersubtitle {
-        font-family: Helvetica, Arial, sans-serif;
-        font-weight:;
-        letter-spacing: 1px;
+    legend.bordersubtitle{
+        font-family:Helvetica, Arial, sans-serif;
+        letter-spacing:1px;
     }
 
-    h3.artworktitle {
-        font-family: Helvetica, Arial, sans-serif;
-        text-align: center;
-        font-size: large;
+    h3.artworktitle{
+        font-family:Helvetica, Arial, sans-serif;
+        text-align:center;
+        font-size:large;
     }
 
-    h4.artworksubtitle {
-        font-family: Helvetica, Arial, sans-serif;
-        text-align: center;
-        font-size: medium;
+    h4.artworksubtitle{
+        font-family:Helvetica, Arial, sans-serif;
+        text-align:center;
+        font-size:medium;
     }
 
 /* PARAGRAPH TAG FONT CHANGES */
@@ -189,128 +182,68 @@ SPACING TOOLS
     }
 
 /* CONTACT FORM */
-    .contactcontainer {
-        padding: 20px;
-        margin: 80px;
-        margin-top: -60px;
-        font-family: Helvetica, Arial, sans-serif;
-        font-weight: bold;
-        letter-spacing: 1px;
-        line-height: 45px;
+    .contactcontainer{
+        padding:20px;
+        margin:80px;
+        margin-top:-60px;
+        font-family:Helvetica, Arial, sans-serif;
+        font-weight:bold;
+        letter-spacing:1px;
+        line-height:45px;
     }
 
-    input {
+    input{
         width:100%;
-        line-height: 30px;    
-        font-size: 18px;
-        font-family:Georgia, Times, serif;
+        line-height:30px;
+        font-size:18px;
+        font-family:Georgia,Times,serif;
     }
 
-    input[type=submit] {
-        background-color: rgb(0, 0, 0);
-        font-family: Helvetica, Arial, sans-serif;
-        letter-spacing: 1px;
-        font-size: medium;
-        text-transform:;
-        color: whitesmoke;
-        margin-top: 30px;
+    input[type=submit]{
+        background-color:rgb(0,0,0);
+        font-family:Helvetica,Arial,sans-serif;
+        letter-spacing:1px;
+        font-size:medium;
+        color:whitesmoke;
+        margin-top:30px;
         width:101%;
     }
 
-    input[type=text], select, textarea {
-        width: 100%;
-        resize: vertical;
+    input[type=text],select,textarea{
+        width:100%;
+        resize:vertical;
     }
 
     label {
-        margin-bottom: 20px;
+        margin-bottom:20px;
     }
 
 /* MAKING IT - PROCESS */
     div.process { /* CONTAINER FOR PROCESS */
-        background-color:;
         margin: 80px;
         margin-top: -40px;
-        padding:;
 
     }
 
     div.steps {
-        background-color:;
-        margin:;
-        padding:;
         max-width: 100%;
     }
 
-    div.steps h2 {
-        text-align:;
-        font-family:;
-        font-size:;
-        text-transform:;
-        letter-spacing:;
-        line-height:;
-    }
-
-    div.steps h3 {
-        text-align:;
-        font-family:;
-        font-size:;
-        text-transform:;
-        letter-spacing:;
-        line-height:;
-    }
-
-    div.methodology h3 {
-        text-align:;
-        font-family:;
-        font-size: large;
-        text-transform:;
-        letter-spacing:;
-        line-height:;
-    }
-
-    div.steps h4 {
-        text-align:;
-        font-family:;
-        font-size:;
-        text-transform:;
-        letter-spacing:;
-        line-height:;
-    }
-
-    div.steps p {
-        text-align:;
-        font-family:;
-        font-size:;
-        text-transform:;
-        letter-spacing:;
-        line-height:;
-    }
+ 
 
     div.steps dt {
-        text-align:;
-        font-family:;
-        font-size:;
-        text-transform:;
-        letter-spacing:;
         line-height: 20 px;
     }
 
     div.steps dd {
-        text-align:;
         font-family: Georgia, Times, serif;
         font-size: normal;
-        text-transform:;
-        letter-spacing:;
         line-height:40px;
         margin: 20px;
     }
 
     div.steps img {
         margin: 10px;
-        padding:;
-        background-color:;
-        border:;
         max-width: 100%;
         text-align: center;
     }
@@ -332,5 +265,4 @@ SPACING TOOLS
 /* GENERAL LAYOUT TOOLS */
     div.spacer {
         margin: 60px;
-        padding:;
     }
