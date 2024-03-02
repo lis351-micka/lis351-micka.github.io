@@ -82,10 +82,10 @@ SPACING TOOLS
         bottom:0px;
         width:100%;
         background-color:whitesmoke;
-        border:20px solid whitesmoke;
         margin:0px;
         padding:0px;
-
+        padding-top:15px;
+        padding-bottom:15px;
         text-align:center;
     }
 
@@ -174,7 +174,7 @@ SPACING TOOLS
 /* PARAGRAPH TAG FONT CHANGES */
     div.artiststatement {
         font-family: Georgia, Times, serif;
-        font-weight: light;
+        font-weight:lighter;
         margin: 80px;
         padding: 0px;
         line-height: 30px;
@@ -222,24 +222,28 @@ SPACING TOOLS
     div.process { /* CONTAINER FOR PROCESS */
         margin: 80px;
         margin-top: -40px;
-
     }
 
     div.steps {
         max-width: 100%;
     }
 
- 
-
-    div.steps dt {
-        line-height: 20 px;
+    dt {
+        line-height: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight:bold;
+        font-size:large;
+        margin-left:100px;
+        margin-top:-40px;
     }
 
-    div.steps dd {
+    dd {
         font-family: Georgia, Times, serif;
-        font-size: normal;
+        font-size:medium;
         line-height:40px;
         margin: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
     div.steps img {
@@ -254,12 +258,25 @@ SPACING TOOLS
         margin-top: -40px;
     }
 
+    div.about img{
+        width:300px;
+        height:auto;
+        margin-top:-20px;
+    }
+
     div.about p {
         margin-left:40px;
         margin-right:40px;
         line-height: 30px;
         text-align:left;
         font-family: Georgia, Times, serif;
+    }
+
+    div.makingofimages img{
+        width:100%;
+        text-align: center;
+        margin:0px;
+        padding:0px;
     }
 
 /* GENERAL LAYOUT TOOLS */
