@@ -301,6 +301,9 @@ FORM TOOLS
         margin-top:-20px;
     }
 
+div.about li{
+    list-style-type: none;
+}
     div.about p {
         margin-left:40px;
         margin-right:40px;
